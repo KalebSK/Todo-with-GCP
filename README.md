@@ -54,11 +54,14 @@ The sync feature of the app should now work after being correctly configured.
 Disclaimer: The application will function without sync integration but the tasks will only be stored locally on a single client and can't be seen or modified across different clients without setting up the Google Cloud Platform
 
 ## Usage
-1. Adding Tasks
+1. Adding Tasks:
+
 The app is very user friendly. Once the user loads the page the app will load the locally stored tasks or display a message stating that they have no active tasks. To create a new task the user can click the "Add" button. A dialog will be displayed where the user can enter a task description and select from three levels of priority. To close the dialog, the user can click the "Done" button. 
 
-2. Removing Tasks
+2. Removing Tasks:
+
 To remove a task(s) the user can click on a task this will select the task and visually display a blue ring around each selected task. Clicking the "Remove" button will remove the tasks from the task list locally.
 
-3. Sync
+3. Sync:
+
 To sync tasks with the Cloud the user can click the sync button. Once the user clicks the sync button they will be redirected to the google sign in page to give the app consent to see the scoped information for the app. After the user successfully signs in, the client will send the required information to perform a sync. The updated task list is then returned to the client and displayed the user. The client tracks all the required information required between syncs so the cloud list stays updated correctly.
