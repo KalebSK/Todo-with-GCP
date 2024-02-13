@@ -64,4 +64,4 @@ To remove a task(s) the user can click on a task this will select the task and v
 
 3. Sync:
 
-To sync tasks with the Cloud the user can click the sync button. Once the user clicks the sync button they will be redirected to the google sign in page to give the app consent to see the scoped information for the app. After the user successfully signs in, the client will send the required information to perform a sync. The updated task list is then returned to the client and displayed the user. The client tracks all the required information required between syncs so the cloud list stays updated correctly.
+To sync tasks with the Cloud the user can click the sync button. Once the user clicks the sync button they will be redirected to the google sign in page to give the app consent to see the scoped information for the app. After the user successfully signs in, the client will send the required information to perform a sync. The updated task list is then returned to the client and displayed for the user. The client tracks all the required information to perform syncs so the cloud list stays updated correctly.
